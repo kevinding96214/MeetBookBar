@@ -1,0 +1,57 @@
+﻿/* CSS Document */
+
+	.top{
+		background-color:#2CAAF9;
+		height:103px;
+		font-family:方正姚体;
+		font-size:80px;
+		color:#FFF;
+		line-height:25px;
+		width:100%;}
+	.dh{
+		background-color:#6DDB00;
+		height:40px;
+		float:left;
+		color:#FFF;
+		text-align:center;
+		line-height:40px;
+		width:100%;
+		position:absolute;}
+	a{
+		text-decoration:none;
+		color:#FFF;}
+	.dh ul li{
+		list-style:none;
+		float:left;
+		width:100px;
+		height:40px;
+		margin-right:50px;
+		font-size:20px;}
+	.dh ul{
+		margin-top:0px;
+		margin-left:100px;}
+	.dh li:hover{
+		background-color:#090;}
+	.copy{
+		background-color:#6DDB00;
+		text-align:center;
+		font-size:17px;
+		font-family:隶书;
+		line-height:32px;
+		height:30px;
+		width:100%;}
+	body{
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+		margin:0px;}
+	.dh ul ul{
+		display:none;}
+	.dh ul ul li{
+		list-style:none;
+		float:inherit;}
+	.dh ul li:hover ul{
+		display:block;
+		padding:0px;
+		margin:0px;
+		background-color:#6DDB00;}
